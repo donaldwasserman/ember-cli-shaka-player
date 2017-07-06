@@ -1,9 +1,10 @@
 {
   "name": "ember-cli-shaka-player",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Ember addon for shaka-player from Google",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "video"
   ],
   "license": "MIT",
   "author": "",
@@ -18,7 +19,11 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "broccoli-funnel": "^1.1.0",
+    "broccoli-merge-trees": "^2.0.0",
+    "ember-cli-babel": "^6.3.0",
+    "fastboot-transform": "^0.1.1",
+    "shaka-player": "2.1.4"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
