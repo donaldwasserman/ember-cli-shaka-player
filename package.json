@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-shaka-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ember addon for shaka-player from Google",
   "keywords": [
     "ember-addon",
@@ -22,8 +22,9 @@
     "broccoli-funnel": "^1.1.0",
     "broccoli-merge-trees": "^2.0.0",
     "ember-cli-babel": "^6.3.0",
-    "fastboot-transform": "^0.1.1",
-    "shaka-player": "2.1.4"
+    "ember-cli-htmlbars": "^2.0.0",
+    "fastboot-transform": "^0.1.2",
+    "shaka-player": "2.1.5"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
